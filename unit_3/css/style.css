@@ -2,12 +2,10 @@ body {
     background-color: #8e8e8e;
 }
 
-h1, p {
+h1, p, ul {
     color: #ffffff;
 }
-h1 {
-	background: url("images/hero-image.jpg")
-}
+
 #slogan {
 	font-style: italic;
 }
