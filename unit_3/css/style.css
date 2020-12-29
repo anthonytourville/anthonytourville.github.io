@@ -1,0 +1,17 @@
+body {
+    background-color: #8e8e8e;
+}
+
+h1, p {
+    color: #ffffff;
+}
+h1 {
+	background: url("images/hero-image.jpg")
+}
+#slogan {
+	font-style: italic;
+}
+a {
+	color: #ff9521
+	text-decoration: none;
+}
