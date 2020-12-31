@@ -6,7 +6,7 @@ body {
     background-color: #8e8e8e;
 }
 
-h1, p, ul {
+h1, h2, h3, p, ul {
     color: #ffffff;
 }
 
@@ -21,7 +21,11 @@ a {
 
 p, ul {
 	font-family: 'Quicksand', sans-serif;
-	margin: 4em
+	line-height: 1.5em;
+}
+
+p {
+	margin: 4em;
 }
 
 h1, h2, h3 {
