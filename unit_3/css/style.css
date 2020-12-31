@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Quicksand&display=swap');
+
 body {
     background-color: #8e8e8e;
 }
@@ -9,7 +13,16 @@ h1, p, ul {
 #slogan {
 	font-style: italic;
 }
+
 a {
-	color: #ff9521
+	color: #ff9521;
 	text-decoration: none;
+}
+
+p, ul {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Arvo', serif;
 }
