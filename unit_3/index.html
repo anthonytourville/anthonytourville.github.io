@@ -6,28 +6,25 @@
 </head>
 <body>
 	<header>
-	<img src="images/logo.jpg" alt="food truck logo">
+	<a href="#"><img src="images/logo.jpg" alt="food truck logo"></a>
 	<nav>
-		<p><a href="#">About US</a></p>
-		<p><a href="#">Request A Location</a></p>
-		<p><a href="#">Event Booking</a></p>
+		<p><a href="#about">About US</a> | <a href="#">Request A Location</a> | <a href="#">Event Booking</a></p>
 	</nav>
 	<h1>Global Fries</h1>
-	<h1>Today's Locaiton: 75 State St. Boston, MA</h1>
-	<h1><a href="https://www.google.com/maps/place/75+State+St,+Boston,+MA+02109/data=!4m2!3m1!1s0x89e3708684191e29:0xb1c1deafc0f989a?sa=X&ved=2ahUKEwiruLei4_jtAhXOElkFHYVtBf0Q8gEwAHoECAYQAQ" target="_blank">Get Directions</a></h1>
+	<p>Today's Locaiton: 75 State St. Boston, MA</p>
+	<p><a href="https://www.google.com/maps/place/75+State+St,+Boston,+MA+02109/data=!4m2!3m1!1s0x89e3708684191e29:0xb1c1deafc0f989a?sa=X&ved=2ahUKEwiruLei4_jtAhXOElkFHYVtBf0Q8gEwAHoECAYQAQ" target="_blank">Get Directions</a></p>
 	<p id="slogan">Get cultured from the convience of a resturant on wheels</p>
-	<img src="images/hero-image.jpg" alt="speciality french fries">
 </header>
-<div id="daily">
-	<H2>Daily Classics</H2>
+<section id="daily">
+	<h2>Daily Classics</h2>
 	<ul>
 		<li>Fries & Ketchup</li>
 		<li>Truffle Parm</li>
 		<li>Sweet Potato</li>
 		<li>Cajun</li>
 	</ul>
-</div>
-<div id="main">
+</section>
+<section id="main">
 	<h2>Main Menu</h2>
 	<ul>
 		<li>Poutine</li>
@@ -37,27 +34,39 @@
 		<li>Sauces: Ketchup, Ranch, hot sauce, garlic aioli</li>
 		<li>Bottled Beverage</li>
 	</ul>
-</div>
+</section>
+<section>
 	<img src="images/slider.jpg" alt="examples of our french fries">
+</section>
+<section>
+	<h2 name="about">About Us</h2>
 	<p>Global Fries is a Boston based food truck that regularlly changes up our menu to provide a global taste palette. We combine our passion of french fries with influences from globally sourced flavors, spices and sauces. Except for crinkle cut...they are the worst!</p>
+<section>
 	<H2>Order Ahead</H2>
 	<p>By ordering ahead you skip the line just like we skip crinkle cut!</p>
 	<p><a href="#">Order Now</a></p>
+</section>
+<section>
 	<h2>Weekly Schedule</h2>
 	<ul>
 		<li>Wednesday: 75 State St. Boston, MA</li>
 		<li>Thursday: 75 State St. Boston, MA</li>
 		<li>Friday: Night Shift Brewer, Evert</li>
 	</ul>
-	<footer>
-	<img src="images/instagram_icon.png" alt="Instagram Icon" hspace="10"><img src="images/facebook_icon.png" alt="Facebook Icon" hspace="10"><img src="images/youtube_icon.png" alt="YouTube Icon" hspace="10">
+</section>
+<footer>
+	<div>
+		<a href="#"><img src="images/instagram_icon.png" alt="Instagram Icon" hspace="10"></a>
+		<a href="#"><img src="images/facebook_icon.png" alt="Facebook Icon" hspace="10"></a>
+		<a href="#"><img src="images/youtube_icon.png" alt="YouTube Icon" hspace="10"></a>
+	</div>
 	<h3>Newsletter Signup</h3>
 	<p>Get weekly schedule and menu updates as well as the latest happenings with Global Fries Food Truck!</p>
-	<textarea name="myTextBox" cols="50" rows="1">
-Email Address
-</textarea>
-<br />
-<input type="submit" />
+	<form>
+		<input type="email" id="email">
+		<label form="email">Email</label>
+		<input type="submit" />
+	</form>
 </footer>
 </body>
 </html>
