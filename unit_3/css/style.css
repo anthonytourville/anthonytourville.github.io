@@ -2,12 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Quicksand&display=swap');
 
-header {
-	background: url("images/hero-image.jpg");
-}
-
 body {
     background-color: #8e8e8e;
+    margin: 2em;
+}
+
+header {
+	background: url("images/hero-image.jpg");
+	padding: 0, 0, 0, 2em;
+}
+
+nav {
+	text-align: right;
 }
 
 h1, h2, h3, p, ul {
