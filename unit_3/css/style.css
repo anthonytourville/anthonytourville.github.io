@@ -66,14 +66,14 @@ section, div {
 #left {
     border: 1px black solid;
     padding: 20px;
-    margin: 0 0px 0 500px;
+    margin: 0 0 0 15em;
     float: left;
 }
 
 #right {
     border: 1px black solid;
     padding: 20px;
-    margin: 0 500px 0 0;
+    margin: 0 15em 0 0;
     float: right;
 }
 
