@@ -4,7 +4,7 @@
 
 body {
     background-color: #8e8e8e;
-    margin: 2em;
+    margin: 18em;
 }
 
 header {
@@ -74,6 +74,17 @@ section, div {
     border: 1px black solid;
     padding: 20px;
     margin: 0 500px 0 0;
+    float: right;
+}
+
+#left-2 {
+    padding: 20px;
+    float: left;
+}
+
+#right-2 {
+    border: 1px black solid;
+    padding: 20px;
     float: right;
 }
 
