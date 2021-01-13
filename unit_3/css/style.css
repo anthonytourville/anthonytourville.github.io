@@ -48,21 +48,17 @@ img {
 }
 
 header {
-    border: 1px black solid;
     padding: 20px;
 }
 
 nav {
-    border: 1px black solid;
     padding: 20px;
 }
 
 section, div {
-    border: 1px black solid;
     padding: 20px;
 }
 
 footer {
-    border: 1px black solid;
     padding: 20px;
 }
