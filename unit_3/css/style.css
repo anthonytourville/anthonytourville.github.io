@@ -9,11 +9,11 @@ body {
 
 header {
 	background: url("images/hero-image.jpg");
-	padding: 0, 0, 0, 2em;
 }
 
 nav {
-	text-align: right;
+	display: inline-block;
+	float: right;
 }
 
 h1, h2, h3, p, ul {
@@ -34,69 +34,33 @@ p, ul {
 	line-height: 1.5em;
 }
 
-p, form {
-	margin: 5px 100px 25px 100px;
-}
-
 h1, h2, h3 {
 	font-family: 'Arvo', serif;
 	text-transform: uppercase;
 }
 
-img {
-	padding: 0;
-}
-
-header {
-    padding: 20px;
-}
-
-nav {
-    padding: 20px;
-}
-
-section, div {
-    padding: 20px;
-}
-
-#two_column {
-    padding: 20px;
-}
-
-#left {
+#classics {
     border: 1px black solid;
-    padding: 20px;
-    margin: 0 0 0 15em;
     float: left;
 }
 
-#right {
+#main-menu {
     border: 1px black solid;
-    padding: 20px;
-    margin: 0 15em 0 0;
-    float: right;
-}
-
-#left-2 {
-    padding: 20px;
     float: left;
 }
 
-#right-2 {
+#social-media {
+    float: left;
+}
+
+#newsletter {
     border: 1px black solid;
-    padding: 20px;
-    float: right;
+    float: left;
 }
 
 .clearfix:after {
-    visibility: hidden;
     display: block;
-    font-size: 0;
     content: " ";
     clear: both;
     height: 0;
-}
-
-footer {
-    padding: 20px;
 }
