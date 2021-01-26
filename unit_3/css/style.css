@@ -4,11 +4,11 @@
 
 body {
     background-color: #8e8e8e;
-    margin: 0 18em;
 }
 
 #banner-area {
-	background: url("images/hero-image.jpg");
+	background: url("../images/hero-image.jpg");
+	height: 800px;
 }
 
 
@@ -42,19 +42,15 @@ h1, h2, h3 {
 }
 
 #daily-menu {
-	margin: 4em 20em;
 }
 
 #classics {
     border: 1px black solid;
-    padding: 10px;
-    margin: 0 2em 0 0;
     float: left;
 }
 
 #main-menu {
     border: 1px black solid;
-    padding: 10px;
     float: left;
 }
 
