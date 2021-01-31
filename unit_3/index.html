@@ -5,24 +5,24 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<header>
-			<section id="logo">
-				<a href="#"><img src="images/logo.jpg" alt="food truck logo"></a>
-			</section>
-			<nav class="clearfix">
+		<header class="clearfix">
+			<a href="#" id="logo"><img src="images/logo.jpg" alt="food truck logo"></a>
+			<nav>
 				<a href="#about">About Us</a> | 
 				<a href="#">Request A Location</a> | 
 				<a href="#">Event Booking</a>
 			</nav>
-			<section id="banner-area">
+		</header>
+		<section class ="clearfix" id="banner-area">
+			<section id="hero-text">
 				<h1>Global Fries</h1>
 				<p>Today's Locaiton: 75 State St. Boston, MA
 				<a href="https://www.google.com/maps/place/75+State+St,+Boston,+MA+02109/data=!4m2!3m1!1s0x89e3708684191e29:0xb1c1deafc0f989a?sa=X&ved=2ahUKEwiruLei4_jtAhXOElkFHYVtBf0Q8gEwAHoECAYQAQ" target="_blank">Get Directions</a></p>
 				<p id="slogan">Get cultured from the convience of a resturant on wheels</p>
 			</section>
-		</header>
+		</section>
 		<section id="daily-menu" class="clearfix">
-  			<div id="classics">
+  			<div id="menu-boxes">
 				<h2>Daily Classics</h2>
 					<ul>
 						<li>Fries & Ketchup</li>
@@ -31,7 +31,7 @@
 						<li>Cajun</li>
 					</ul>
  			</div>
-			<div id="main-menu">
+			<div id="menu-boxes">
 				<h2>Main Menu</h2>
 					<ul>
 						<li>Poutine</li>
@@ -43,12 +43,12 @@
 					</ul>
   			</div>
 		</section>
-		<section id="product-images">
-			<img src="images/sweet-potato-fries.jpg" alt="sweet-potato-fries">
-			<img src="images/fries-to-go.jpg" alt="french fries to go">
-			<img src="images/food-truck-fries.jpg" alt="food truck french fries">
-			<img src="images/french-fry-sauces.jpg" alt="french fry sauces">
-		</section>
+		<div class="product-images">
+  			<div class="grid-item"><img src="images/sweet-potato-fries.jpg" alt="sweet-potato-fries"></div>
+  			<div class="grid-item grid-item--width2"><img src="images/fries-to-go.jpg" alt="french fries to go"></div>
+ 			<div class="grid-item grid-item--height2"><img src="images/food-truck-fries.jpg" alt="food truck french fries"></div>
+ 			<div class="grid-item grid-item--height3"><img src="images/french-fry-sauces.jpg" alt="french fry sauces"></div>
+		</div>
 		<section id="about-us">
 			<h2>About Us</h2>
 			<p>Global Fries is a Boston based food truck that regularlly changes up our menu to provide a global taste palette. We combine our passion of french fries with influences from globally sourced flavors, spices and sauces. Except for crinkle cut...they are the worst!</p>
